@@ -8,14 +8,14 @@
 function makeTheConnection() {
 
 	// FILL IN YOUR DATABASE NAME
-	$db = "bmgt407_2021s_07_db";
+	$db = "asts";
 	
 	// UNCOMMENT THIS IF YOU ARE USING MYSQL
-	$connection = "mysql:host=bmgt407.rhsmith.umd.edu;dbname=".$db; 
+	$connection = "mysql:host=localhost;dbname=".$db;
 
 	// ENTER YOUR INFORMATION FOR LOGGING IN
-	$user = "bmgt407_2021s_07";
-	$pwd = "bmgt407_2021s_07";
+	$user = "root";
+	$pwd = "";
 
 	try {
 		$GLOBALS['conn']  = new PDO($connection, $user, $pwd);
@@ -50,8 +50,7 @@ function getRows($query) {
 	} 
 
 	$stmt = $GLOBALS['conn']->query($query);
-	$rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
-	return $rows;
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
 }
 
 //For SELECT query that returns ONLY ONE row

@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once('dbhelper.php');
+require_once('database_helper.php');
 if (isset($_SESSION['username'])) {
     header("Location: index.php");
 }

@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once('dbhelper.php');
+require_once('database_helper.php');
 
 if ($_SESSION['accountType'] != 'director') {
     header("Location: index.php");

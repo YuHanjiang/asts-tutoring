@@ -1,5 +1,5 @@
 <?php
-require_once('dbhelper.php');
+require_once('database_helper.php');
 session_start();
 if ($_SESSION['accountType'] != 'director' and $_SESSION['accountType'] != 'tutor') {
     header("Location: index.php");

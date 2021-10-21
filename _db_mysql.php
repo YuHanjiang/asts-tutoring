@@ -1,8 +1,8 @@
 <?php
-$servername = "bmgt407.rhsmith.umd.edu";
-$username = "bmgt407_2021s_07";
-$password = "bmgt407_2021s_07";
-$dbname = "bmgt407_2021s_07_db";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "asts";
 
 try {
     $db = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);

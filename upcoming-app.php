@@ -1,5 +1,5 @@
 <?php
-require_once('dbhelper.php');
+require_once('database_helper.php');
 session_start();
 
 if (!isset($_SESSION['username'])) {
