@@ -1,2 +1,2 @@
-# asts-tutoring
+# ASTS Tutoring
 Tutoring Appointment Website for ASTS

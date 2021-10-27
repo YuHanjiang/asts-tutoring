@@ -54,7 +54,7 @@
                         <p>Struggling in a course? The Academic Success and Tutorial Services (ASTS) offers free online
                             tutoring in the following courses:</p>
 
-                        <div id="grad1" style="text-align:center;margin:auto;color:white;font-size:15px;">
+                        <div id="grad1">
                             <p style="font-family:courier,serif;"><b>
                                 &nbsp;&nbsp; <br>
                                 BMGT220 | BGMT221 | BMGT230 <br>
